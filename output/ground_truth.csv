@@ -1,0 +1,41 @@
+record_id,issue
+REV-2026-047709,Label contradicts text
+RESP-SUR-2026-000005-45377,Label contradicts text
+REV-2026-047374,Label contradicts text
+REV-2026-035378,Label contradicts text
+RESP-SUR-2026-000052-8592,Label contradicts text
+REV-2026-006830,Label contradicts text
+REV-2026-029119,Label contradicts text
+RESP-SUR-2026-000038-1998,Label contradicts text
+REV-2026-030888,Label contradicts text
+REV-2026-043079,Label contradicts text
+REV-2026-046610,PII Leak in text
+REV-2026-039140,PII Leak in text
+REV-2026-012986,PII Leak in text
+RESP-SUR-2026-000068-15541,PII Leak in text
+REV-2026-004399,PII Leak in text
+RESP-SUR-2026-000072-3015,PII Leak in text
+RESP-SUR-2026-000086-30261,PII Leak in text
+RESP-SUR-2026-000045-4013,PII Leak in text
+RESP-SUR-2026-000078-42049,PII Leak in text
+RESP-SUR-2026-000001-7763,PII Leak in text
+RESP-SUR-2026-000018-44388,Orphan theme ID
+REV-2026-044764,Orphan theme ID
+REV-2026-001208,Orphan theme ID
+REV-2026-010731,Orphan theme ID
+RESP-SUR-2026-000092-10075,Orphan theme ID
+REV-2026-043904,Orphan theme ID
+RESP-SUR-2026-000076-1801,Orphan theme ID
+REV-2026-019605,Orphan theme ID
+RESP-SUR-2026-000032-16707,Orphan theme ID
+REV-2026-026506,Orphan theme ID
+REV-2026-013137,Duplicate response
+RESP-SUR-2026-000084-8587,Duplicate response
+REV-2026-002502,Duplicate response
+REV-2026-045170,Duplicate response
+REV-2026-035704,Duplicate response
+REV-2026-020496,Test labels in input
+RESP-SUR-2026-000070-25538,Test labels in input
+RESP-SUR-2026-000089-23892,Test labels in input
+REV-2026-030980,Test labels in input
+RESP-SUR-2026-000001-8173,Test labels in input

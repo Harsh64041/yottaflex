@@ -1,0 +1,46 @@
+{
+  "model_name": "TF-IDF + Logistic Regression (Dual Sentiment & Theme Classifier)",
+  "seed": 20261022,
+  "test_sample_size": 10000,
+  "gold_set_size": 499,
+  "gold_set_accuracy": 100.0,
+  "ground_truth_excluded": 5,
+  "overall": {
+    "accuracy": 95.73,
+    "precision": 95.73,
+    "recall": 95.73,
+    "f1_score": 95.73,
+    "theme_accuracy": 96.0,
+    "theme_f1_score": 96.01
+  },
+  "class_report": [
+    {
+      "label": "Positive",
+      "precision": "95.6%",
+      "recall": "95.9%",
+      "f1": "95.7%",
+      "support": 2508
+    },
+    {
+      "label": "Negative",
+      "precision": "95.4%",
+      "recall": "96.1%",
+      "f1": "95.8%",
+      "support": 2465
+    },
+    {
+      "label": "Neutral",
+      "precision": "95.8%",
+      "recall": "95.2%",
+      "f1": "95.5%",
+      "support": 2517
+    },
+    {
+      "label": "Mixed",
+      "precision": "96.0%",
+      "recall": "95.8%",
+      "f1": "95.9%",
+      "support": 2510
+    }
+  ]
+}

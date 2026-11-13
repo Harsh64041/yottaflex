@@ -1,0 +1,6 @@
+record_id,entity,issue_type,expected_decision,details
+REV-2026-000045,reviews_responses,Duplicate Response,Deduplicate & retain REV-2026-000012,Exact text & customer match with REV-2026-000012.
+REV-2026-000892,reviews_responses,PII Leakage,Mask PII phone/name before indexing,Customer phone +91-9876543210 and name leaked inside text.
+REV-2026-001002,reviews_responses,Contradictory Label,Override label from Positive to Negative,"Text states 'Worst experience ever, total failure' but label is Positive."
+MSG-000500-001,support_messages,Taxonomy Violation,Quarantine orphan theme ID THEME-999999,Assigned theme_id THEME-999999 outside defined taxonomy.
+REV-2026-002050,reviews_responses,Test Data Leak,Strip __LABEL__ token prior to vectorization,Target token [__TEST_LABEL_NEGATIVE__] leaked inside input text.

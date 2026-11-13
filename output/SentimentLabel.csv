@@ -1,0 +1,5 @@
+label_id,sentiment
+LBL-0001,Positive
+LBL-0002,Neutral
+LBL-0003,Negative
+LBL-0004,Mixed

@@ -1,0 +1,6 @@
+product_id,name,category
+PROD-0001,Cloud Hosting,SaaS
+PROD-0002,Payment Gateway,SaaS
+PROD-0003,CRM Software,SaaS
+PROD-0004,Analytics API,SaaS
+PROD-0005,Email Service,SaaS

@@ -1,0 +1,20 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Node Modules & Environment
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+frontend/dist/
+
+# Environment Secrets / Config Files
+.env
+.env.local
+config.json
+credentials.json
+
+# Local Exports & Temporary Build Artifacts
+exports/
+*.log

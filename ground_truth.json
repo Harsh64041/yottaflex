@@ -1,0 +1,37 @@
+[
+  {
+    "record_id":"REV-2026-000045",
+    "entity":"reviews_responses",
+    "issue_type":"Duplicate Response",
+    "expected_decision":"Deduplicate & retain REV-2026-000012",
+    "details":"Exact text & customer match with REV-2026-000012."
+  },
+  {
+    "record_id":"REV-2026-000892",
+    "entity":"reviews_responses",
+    "issue_type":"PII Leakage",
+    "expected_decision":"Mask PII phone\/name before indexing",
+    "details":"Customer phone +91-9876543210 and name leaked inside text."
+  },
+  {
+    "record_id":"REV-2026-001002",
+    "entity":"reviews_responses",
+    "issue_type":"Contradictory Label",
+    "expected_decision":"Override label from Positive to Negative",
+    "details":"Text states 'Worst experience ever, total failure' but label is Positive."
+  },
+  {
+    "record_id":"MSG-000500-001",
+    "entity":"support_messages",
+    "issue_type":"Taxonomy Violation",
+    "expected_decision":"Quarantine orphan theme ID THEME-999999",
+    "details":"Assigned theme_id THEME-999999 outside defined taxonomy."
+  },
+  {
+    "record_id":"REV-2026-002050",
+    "entity":"reviews_responses",
+    "issue_type":"Test Data Leak",
+    "expected_decision":"Strip __LABEL__ token prior to vectorization",
+    "details":"Target token [__TEST_LABEL_NEGATIVE__] leaked inside input text."
+  }
+]

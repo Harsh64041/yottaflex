@@ -1,0 +1,7 @@
+action_id,theme_id,description,priority
+ACT-2026-000001,THEME-000001,Investigate recurring issues related to Pricing,Medium
+ACT-2026-000002,THEME-000002,Investigate recurring issues related to UI/UX,Medium
+ACT-2026-000003,THEME-000003,Investigate recurring issues related to Performance,High
+ACT-2026-000004,THEME-000004,Investigate recurring issues related to Customer Support,Medium
+ACT-2026-000005,THEME-000005,Investigate recurring issues related to Downtime,High
+ACT-2026-000006,THEME-000006,Investigate recurring issues related to Feature Request,Medium

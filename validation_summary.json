@@ -1,0 +1,14 @@
+{
+  "seed": 20261022,
+  "pk_and_response_id_uniqueness": true,
+  "id_nomenclature_verified": true,
+  "foreign_key_and_survey_product_aligned": true,
+  "date_ordering_verified": true,
+  "lifecycle_transitions_verified": true,
+  "arithmetic_reconciliation_verified": true,
+  "total_reviews_reconciled": 50000,
+  "total_negative_reviews_reconciled": 12327,
+  "ground_truth_isolated_rows": 5,
+  "two_run_checksum_reproducible": true,
+  "sha256_reviews": "d4b193807c769738437a346b90aab1e1f7e16846bb5f4084aaf0d5f359b9e2ac"
+}

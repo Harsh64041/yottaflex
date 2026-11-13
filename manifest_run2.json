@@ -1,0 +1,23 @@
+{
+  "seed": 20261022,
+  "scale": 1.0,
+  "counts": {
+    "channels": 3,
+    "products": 4,
+    "themes": 5,
+    "sentiment_labels": 4,
+    "customers": 5000,
+    "surveys": 100,
+    "reviews_responses": 50000,
+    "support_messages": 20000,
+    "review_themes_bridge": 5000,
+    "ticket_status_events": 2000,
+    "action_items": 3,
+    "ground_truth": 5
+  },
+  "gold_evaluation_set_rows": 499,
+  "checksums_sha256": {
+    "reviews_responses": "d4b193807c769738437a346b90aab1e1f7e16846bb5f4084aaf0d5f359b9e2ac",
+    "support_messages": "8a2c7092b78c48967c5c5aff3f2f0bfa208b7519a81cd17de2996f6a897b28f3"
+  }
+}
