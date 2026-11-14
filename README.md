@@ -1,63 +1,54 @@
 
-# YottaFlex — Real-Time AI Feedback & Sentiment Analytics Platform
+# YottaFlex – Real-Time AI Feedback & Sentiment Analytics Platform
 
-## 📌 Overview
+## Overview
 
-**YottaFlex** is a full-stack AI-powered feedback analysis and sentiment analytics platform designed to process large-scale customer feedback and support records.
+**YottaFlex** is a full-stack, AI-powered feedback analysis and sentiment analytics platform designed to process large-scale customer feedback and support records.
 
-The platform combines Natural Language Processing (NLP), machine learning evaluation, REST APIs, PostgreSQL, and an interactive React dashboard to analyze customer sentiment, identify feedback themes, and monitor sentiment trends.
+The platform integrates Natural Language Processing (NLP), machine learning evaluation, REST APIs, PostgreSQL, and an interactive React dashboard to analyze customer sentiment, identify recurring feedback themes, and monitor sentiment trends.
 
-It supports 50,000+ feedback and support records and provides an integrated pipeline for data generation, validation, and model evaluation.
+YottaFlex supports **50,000+ feedback and support records** and provides an integrated pipeline for data generation, validation, and model evaluation.
 
-## 🌐 Live Demo
+## Live Demo
 
- **Explore YottaFlex Live:**
+**Live Application:** [https://yottaflex-dashboard.onrender.com](https://yottaflex-dashboard.onrender.com)
 
-[https://yottaflex-dashboard.onrender.com](https://yottaflex-dashboard.onrender.com)
+The dashboard is publicly accessible. Use the following demo credentials to explore the application.
 
-The YottaFlex dashboard is publicly accessible. Open the link above to explore the deployed application.
+### Demo Credentials
 
-
-
-##  Demo Login Credentials
-
-Use the following credentials to access the YottaFlex dashboard:
-
-| Field | Credentials |
+| Field | Value |
 |---|---|
 | Username | `admin` |
 | Password | `admin123` |
 
-
-
-
-## ✨ Features
+## Key Features
 
 - **AI-Powered Sentiment Analysis:** Analyzes customer feedback and classifies sentiment using an NLP pipeline.
-- **Theme Detection:** Identifies recurring topics and themes from customer feedback.
+- **Theme Detection:** Identifies recurring topics and patterns in customer feedback.
 - **Large-Scale Data Processing:** Supports the generation and processing of 50,000+ records.
-- **Interactive Dashboard:** Visualizes sentiment distribution, feedback trends, and analytics.
-- **REST API Integration:** Provides backend APIs using Node.js and Express.js.
+- **Interactive Dashboard:** Visualizes sentiment distribution, feedback trends, and analytical insights.
+- **REST API Integration:** Provides backend services through Node.js and Express.js.
 - **PostgreSQL Database:** Stores structured feedback and application data.
-- **Data Validation:** Includes automated schema, integrity, and consistency checks.
-- **Model Evaluation:** Measures sentiment and theme classification performance.
+- **Data Validation:** Performs automated schema, integrity, and consistency checks.
+- **Model Evaluation:** Measures sentiment classification and theme detection performance.
 - **Reproducibility:** Uses SHA-256 checksums for pipeline integrity verification.
-- **Cloud Deployment:** Supports deployment using Render.
+- **Cloud Deployment:** Supports deployment through Render.
 
-## 🛠️ Tech Stack
+## Technology Stack
 
 | Layer | Technologies |
 |---|---|
 | Frontend | React.js, Vite, HTML5, CSS3, JavaScript |
 | Backend | Node.js, Express.js, REST APIs |
 | Database | PostgreSQL |
-| AI / ML | Python 3.12, NLP, Sentiment Analysis |
+| AI / Machine Learning | Python 3.12, NLP, Sentiment Analysis |
 | Data Processing | Python, CSV, JSON |
 | Validation | Custom Python Validation Scripts |
-| Tools | Git, GitHub, VS Code |
+| Development Tools | Git, GitHub, VS Code |
 | Deployment | Render |
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Yotta_Flex/
@@ -94,18 +85,18 @@ Yotta_Flex/
 └── validate.py
 ```
 
-##  Prerequisites
+## Prerequisites
 
-Make sure the following tools are installed:
+Ensure the following tools and technologies are installed:
 
 - Node.js (v18 or later)
 - npm
 - Python (3.12 or later)
 - PostgreSQL
 - Git
-- Code Editor (VS Code recommended)
+- Visual Studio Code (recommended)
 
-##  Installation & Setup
+## Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -119,7 +110,6 @@ cd Yotta_Flex
 
 ```bash
 cd backend
-
 npm install
 ```
 
@@ -127,46 +117,44 @@ npm install
 
 ```bash
 cd ../frontend
-
 npm install
 ```
 
 ### 4. Install Python Dependencies
 
-Navigate to the project root:
+Navigate to the project root directory:
 
 ```bash
 cd ..
-
 pip install -r requirements.txt
 ```
 
 ### 5. Configure Environment Variables
 
-Create a `.env` file in the project root or backend directory according to the application's configuration.
+Create a `.env` file in the project root or backend directory, depending on the application's configuration.
 
-Example:
+Add the following environment variables:
 
 ```env
 PORT=5000
 DATABASE_URL=your_postgresql_connection_string
 ```
 
-For the frontend, configure the API URL if required:
+For the frontend, configure the backend API URL if required:
 
 ```env
 VITE_API_URL=http://localhost:5000
 ```
 
-**Important:** Replace the example values with your actual configuration. Never upload database credentials, API keys, or passwords to GitHub.
+**Important:** Replace the example values with your actual configuration. Never commit database credentials, API keys, passwords, or other sensitive information to GitHub.
 
-## 🧪 Data Generation & Validation
+## Data Generation and Validation
 
 YottaFlex includes Python scripts for generating datasets, validating data integrity, and evaluating model performance.
 
-Run the following commands from the project root:
+Run the following commands from the project root directory.
 
-### Generate Dataset
+### 1. Generate Dataset
 
 ```bash
 python generate_data.py
@@ -174,7 +162,7 @@ python generate_data.py
 
 Generates the project dataset containing 50,000+ records.
 
-### Validate Dataset
+### 2. Validate Dataset
 
 ```bash
 python validate.py
@@ -182,7 +170,7 @@ python validate.py
 
 Checks schema consistency, data integrity, and validation requirements.
 
-### Evaluate Model
+### 3. Evaluate Model Performance
 
 ```bash
 python evaluate.py
@@ -190,31 +178,29 @@ python evaluate.py
 
 Evaluates sentiment classification and theme detection performance.
 
-**Note:** Run data generation only when you intend to create or reseed the dataset. Check the script configuration before running it against a shared database.
+**Note:** Run the data generation script only when you intend to create or reseed the dataset. Review its configuration before executing it against a shared database.
 
-##  Running the Application
+## Running the Application
 
-Start the backend and frontend in separate terminals.
+Start the backend and frontend independently using separate terminal sessions.
 
-### Start Backend
+### Start the Backend
 
 ```bash
 cd backend
-
 npm start
 ```
 
-### Start Frontend
+### Start the Frontend
 
 ```bash
 cd frontend
-
 npm run dev
 ```
 
-Open the local URL displayed by the Vite development server in your browser.
+Once both services are running, open the local URL displayed by the Vite development server in your browser.
 
-## 📊 Model Performance & Evaluation
+## Model Performance and Evaluation
 
 The project evaluation pipeline reports the following performance metrics:
 
@@ -228,87 +214,87 @@ The project evaluation pipeline reports the following performance metrics:
 | Theme F1 Score | 96.01% |
 | Checksum Verification | Two-pass SHA-256 |
 
-These are the reported project metrics. Run the evaluation scripts against the configured evaluation dataset to reproduce and verify the results.
+These represent the reported project evaluation results. The evaluation scripts can be executed against the configured evaluation dataset to reproduce and verify the metrics.
 
-## 🗄️ Database
+## Database
 
-YottaFlex uses PostgreSQL as its relational database.
+YottaFlex uses **PostgreSQL** as its relational database management system.
 
 Database integration supports:
 
-- Structured feedback storage
-- Relational data management
-- Foreign-key relationships
-- Database constraints
-- Data consistency
-- Backend database connectivity
+- Structured feedback storage.
+- Relational data management.
+- Foreign-key relationships.
+- Database constraints.
+- Data consistency and integrity.
+- Backend database connectivity.
 
 Configure the PostgreSQL connection using the `DATABASE_URL` environment variable.
 
-## ☁️ Deployment on Render
+## Deployment on Render
 
-YottaFlex can be deployed using Render.
+YottaFlex supports cloud deployment using Render.
 
 ### 1. Database Deployment
 
 - Create a PostgreSQL database on Render.
 - Configure the database connection.
 - Initialize the required database schema.
-- Copy the database connection URL.
+- Obtain the database connection URL.
 
 ### 2. Backend Deployment
 
-Create a new Web Service.
+Create a new Web Service on Render with the following configuration:
 
-Configuration:
-
-- Repository: YottaFlex GitHub Repository
-- Root Directory: `backend`
-- Runtime: Node.js
-- Build Command: `npm install`
-- Start Command: `npm start` (if configured in package.json)
-- Environment Variable: `DATABASE_URL`
+| Setting | Configuration |
+|---|---|
+| Repository | YottaFlex GitHub Repository |
+| Root Directory | `backend` |
+| Runtime | Node.js |
+| Build Command | `npm install` |
+| Start Command | `npm start` |
+| Environment Variable | `DATABASE_URL` |
 
 ### 3. Frontend Deployment
 
-Create a new Static Site.
+Create a new Static Site on Render with the following configuration:
 
-Configuration:
+| Setting | Configuration |
+|---|---|
+| Root Directory | `frontend` |
+| Build Command | `npm install && npm run build` |
+| Publish Directory | `dist` |
+| Environment Variable | `VITE_API_URL` |
 
-- Root Directory: `frontend`
-- Build Command: `npm install && npm run build`
-- Publish Directory: `dist`
-- Environment Variable: `VITE_API_URL`
+Set `VITE_API_URL` to the deployed backend URL.
 
-Set `VITE_API_URL` to your deployed backend URL.
+Ensure that the backend CORS configuration allows requests from the deployed frontend domain.
 
-Ensure that backend CORS settings allow requests from the deployed frontend domain.
+**Note:** Verify the backend entry point, npm scripts, and environment configuration in the repository before deployment.
 
-**Note:** Verify the actual backend entry point, npm scripts, and environment configuration in your repository before deployment.
+## Security and Best Practices
 
-## 🔐 Security & Best Practices
-
-- Keep environment variables private.
-- Never commit `.env` files.
+- Keep environment variables and credentials private.
+- Never commit `.env` files to version control.
 - Validate incoming API requests.
 - Use secure database connections.
 - Implement appropriate authentication and authorization.
-- Handle API errors properly.
-- Maintain database integrity.
-- Use Git for version control.
+- Handle API errors appropriately.
+- Maintain database integrity and consistency.
+- Follow Git version control best practices.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Advanced NLP-based feedback classification.
 - Multilingual sentiment analysis.
 - AI-powered feedback summarization.
 - Advanced customer behavior analytics.
-- Improved dashboard visualizations.
+- Enhanced dashboard visualizations.
 - Automated feedback alerts.
-- Real-time analytics enhancements.
+- Real-time analytics improvements.
 - Scalable cloud infrastructure.
 
-## 🤝 Contribution
+## Contribution Guidelines
 
 Contributions, suggestions, and bug reports are welcome.
 
@@ -316,23 +302,23 @@ To contribute:
 
 1. Fork the repository.
 2. Create a new feature branch.
-3. Make your changes.
+3. Implement your changes.
 4. Commit your changes.
-5. Push the branch.
+5. Push the branch to your fork.
 6. Submit a Pull Request.
 
-## 📧 Contact & Support
+## Contact and Support
 
 **Developer:** Harsh Vardhan Sharma
 
 **Institution:** SGSITS, Indore
 
-**GitHub:** [Harsh64041](https://github.com/Harsh64041)
+**GitHub Profile:** [Harsh64041](https://github.com/Harsh64041)
 
-**Repository:** [YottaFlex](https://github.com/Harsh64041/yottaflex)
+**Project Repository:** [YottaFlex](https://github.com/Harsh64041/yottaflex)
 
 ---
 
-⭐ If you find this project interesting, consider giving it a star on GitHub!
+If you find this project useful or interesting, consider giving the repository a star.
 
-**Built with ❤️ by Harsh Vardhan Sharma**
+**Developed by Harsh Vardhan Sharma**
