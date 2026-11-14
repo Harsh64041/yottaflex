@@ -1,5 +1,5 @@
 
-# 🚀 YottaFlex — Real-Time AI Feedback & Sentiment Analytics Platform
+# YottaFlex — Real-Time AI Feedback & Sentiment Analytics Platform
 
 ## 📌 Overview
 
@@ -11,7 +11,7 @@ It supports 50,000+ feedback and support records and provides an integrated pipe
 
 ## 🌐 Live Demo
 
-🚀 **Explore YottaFlex Live:**
+ **Explore YottaFlex Live:**
 
 [https://yottaflex-dashboard.onrender.com](https://yottaflex-dashboard.onrender.com)
 
@@ -19,7 +19,7 @@ The YottaFlex dashboard is publicly accessible. Open the link above to explore t
 
 
 
-## 🔐 Demo Login Credentials
+##  Demo Login Credentials
 
 Use the following credentials to access the YottaFlex dashboard:
 
@@ -94,7 +94,7 @@ Yotta_Flex/
 └── validate.py
 ```
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Make sure the following tools are installed:
 
@@ -105,7 +105,7 @@ Make sure the following tools are installed:
 - Git
 - Code Editor (VS Code recommended)
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -192,7 +192,7 @@ Evaluates sentiment classification and theme detection performance.
 
 **Note:** Run data generation only when you intend to create or reseed the dataset. Check the script configuration before running it against a shared database.
 
-## ▶️ Running the Application
+##  Running the Application
 
 Start the backend and frontend in separate terminals.
 
