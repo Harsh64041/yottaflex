@@ -1,6 +1,6 @@
-I have attached my complete AI chat conversation below for your reference. If you would like to view the conversation directly on Gemini, you can access it using the link provided below:
+## I have attached my complete AI chat conversation below for your reference. If you would like to view the conversation directly on Gemini, you can access it using the link provided below:
 
-Gemini Chat Link: https://share.gemini.google/Egg9MblM1Kmd
+## Gemini Chat Link: https://share.gemini.google/Egg9MblM1Kmd
 
 Conversation with Gemini
 Hey! I am working on a 72-hour technical coding challenge for the role of Associate AI Forward Deployed Engineer / AI Forward Deployed Engineer.
